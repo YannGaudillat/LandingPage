@@ -1,0 +1,61 @@
+@media screen and (max-width: 800px) {
+    .bloc-1 {
+    width: 100%;
+    }
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.marque {
+    background-color: orange;
+}
+
+.image_marque {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.header {
+    background-color: #ebebeb;
+    color: grey;
+    font-family: 'OpenSans', Arial, sans-serif;
+    border-bottom: 3px solid black ;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.image {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image p {
+    text-align: center;
+    scale: 140%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image img {
+    width: 250px;
+    height: 300px;
+}
+
+.texte_intro {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
