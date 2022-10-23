@@ -1,0 +1,287 @@
+@media screen and (max-width: 460px)
+{
+    .image_marque {
+        margin-top: -10px;
+        margin-left: -8px;
+        width: 264px;
+    }
+
+    .header {
+        display: flex;
+        margin-left: -8px;
+        margin-bottom: -50px;
+    }
+
+    .navigation h1{
+        width: 40px;
+        margin-left: -440px;
+        margin-right: -170px;
+        font-size: 90%;
+        justify-content: space-evenly;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image img {
+        margin-top: 5px;
+    }
+
+    .image p {  
+        font-size: 110%;
+    }
+
+    .texte_intro {
+        font-size: 50%;
+    }
+
+    .texte_intro p {
+        font-size: 160%;
+    }
+
+    .texte_intro h1 {
+        font-size: 220%;
+    }
+
+    .texte_intro h2{
+        font-size: 160%;
+    }
+
+    .texte_intro h3 {
+        font-size: 150%;
+    }
+
+    .texte_intro li{
+        font-size: 170%;
+    }
+
+    .image_4 {
+        margin-top: -230px;
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+    }
+
+    .image_4 img {
+        margin-left: 200px;
+        margin-top: 180px;
+        margin-left: -20px;
+    }
+
+    .image_4 h1 {
+        margin-top: -50px;
+    }
+
+    .texte_outro {
+        margin-left: -580px;
+    }
+
+    .contenu_texte h1 {
+        font-size: 110%;
+        margin-top: -50px;
+        margin-left: 620px;
+        margin-bottom: -90px;
+    }
+
+    .contenu_texte p {
+        font-size: 80%;
+        margin-left: 580px;
+        margin-bottom: -100px;
+    }
+    
+    .texte_outro img {
+        scale: 35%;
+        margin-top: 80px;
+    }
+
+    .image_motion img{
+        margin-top: -100px;
+        margin-bottom:  -150px;
+    }
+
+    .contenu_texte2 h1 {    
+        font-size: 110%;
+        margin-top: -50px;
+        margin-left: 600px;
+        margin-bottom: -70px;
+    }
+
+    .Bouton_acheter p {
+        margin-top: -20px;
+        font-size: 90%;
+        margin-bottom: -50px;
+    }
+
+    .image_footer{
+        scale: 80%;
+    }
+
+    .image_footer img {
+        margin-top: 90px;
+        margin-left: -750px;
+    }
+        
+}
+
+body {
+    background-color: #ebebeb;
+    max-width: 1400px;
+}
+
+.marque {
+    background-color: orange;
+}
+
+.image_marque {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.header {
+    background-color: #ebebeb;
+    color: grey;
+    font-family: 'OpenSans', Arial, sans-serif;
+    border-bottom: 3px solid black ;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.header h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.image {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image p {
+    text-align: center;
+    scale: 140%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image img {
+    width: 250px;
+    height: 300px;
+}
+
+.texte_intro {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texte_intro li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+.image_4 {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+}
+
+.image_4 img {
+    scale: 50%;
+}
+
+.texte_outro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu_texte , .contenu_texte2 {
+    text-align: center;
+    flex-direction: column;
+}
+
+.contenu_texte p {
+    margin-top: 150px;
+    scale: 300%;
+    margin-bottom: 50px;
+}
+
+.contenu_texte h1 {
+    scale: 300%;
+    text-align: center;
+}
+
+.texte_outro img {
+    margin-left: 300px;
+    height: 800px;
+    width: 1000px;
+}
+
+.contenu_texte2 h1 {
+    scale: 300%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Bouton_acheter {
+    scale: 400%;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 200px;
+}
+
+.Bouton_acheter p {
+    border: 3px solid grey;
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.Bouton_acheter p:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    border-top: 1px solid black;
+    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.text_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    margin-left: 50px;
+}
+
+.footer p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.image_footer {
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.image_footer img{
+    scale: 130%;
+}
